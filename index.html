@@ -21,7 +21,7 @@
         background-color: #837AB6;
         background-image: linear-gradient(90deg, #837AB6, #CC8DB3);
         width: 100%;
-        
+
       }
 
       #top {
@@ -78,30 +78,37 @@
         background-color: #F6A5C0;
         border: none;
       }
-      
+
       h1 {
         font-size: 115px;
         font-family: "bd-retrocentric", sans-serif;
         color: white;
         margin: 2;
       }
-      
+
       table {
         margin: 5px;
       }
-      
-      table, td {
-  border: 1px solid white;
-}
+
+      table,
+      td {
+        border: 1px solid white;
+        border-collapse: collapse;
+      }
+
       img {
         width: 100%
+      }
+
+      tr:first-child {
+        height: 400px;
       }
     </style>
   </head>
 
 
   <body>
-    
+
     <div id="top">
       <div id="nav">
         <ul>
@@ -113,29 +120,36 @@
         </ul>
       </div>
     </div>
-    
+
     <h1>Projects </h1>
-    
+
     <table style="width:80%; height:100%">
-      <tr style="height:400px">
+      <tr>
         <td> <img src="magazine project.png" alt="Magazine cover" style="width:300px;height:400px;"></td>
         <td><img src="Bookworm.png" alt="Book reading app cover page" style="width:300px;height:400px;"></td>
         <td><img src="Tyla Poster (1).jpeg" alt="Tyla Poster" style="width:300px;height:400px;"></td>
       </tr>
       <tr style="height:100px">
-      <td><h3>Personal Magazine</h3>
-        <p>
-          This magazine was created to showcase my firs-year projects as well as show my design skills using Indesign.
-        </p></td>
-      <td><h3>Book Reading app</h3>
-        <p>
-          This hi-fidelity prototype features a book reading app that also houses audiobooks. This project was done using figma.
-        </p></td>
-      <td><h3>Tyla Poster</h3>
-        <p>
-          This poster was a personal project of mine showing a favourite artist that I designed using both Canva, Photoshop as well as adobe Express.
-        </p></td></tr>
+        <td>
+          <h3>Personal Magazine</h3>
+          <p>
+            This magazine was created to showcase my firs-year projects as well as show my design skills using Indesign.
+          </p>
+        </td>
+        <td>
+          <h3>Book Reading app</h3>
+          <p>
+            This hi-fidelity prototype features a book reading app that also houses audiobooks. This project was done using figma.
+          </p>
+        </td>
+        <td>
+          <h3>Tyla Poster</h3>
+          <p>
+            This poster was a personal project of mine showing a favourite artist that I designed using both Canva, Photoshop as well as adobe Express.
+          </p>
+        </td>
+      </tr>
     </table>
-    
+
   </body>
 </html>
